@@ -13,6 +13,128 @@
             <ReferenzAntragZuAntrag maxoccurs="1" minoccurs="1"/>
             <OSIPAZ maxoccurs="1" minoccurs="1"/>
         </Antragskopf>
-        <PersonenbezogeneAngaben maxoccurs="0" minoccurs="1"/>
+        <PersonenbezogeneAngaben maxoccurs="0" minoccurs="1">
+            <Antragsteller maxoccurs="1" minoccurs="1">
+                <GueltigerName maxoccurs="1" minoccurs="1">
+                    <Titel maxoccurs="1" minoccurs="1"/>
+                    <Familienname maxOccurs="1" minOccurs="1">FamilienTestName</Familienname>
+                    <Geburtsname minOccurs="0"/>
+                    <Vorname minOccurs="0"/>
+                    <IstBlockname minOccurs="1">true</IstBlockname>
+                </GueltigerName>
+                <FruehererName minOccurs="0">
+                    <Titel maxoccurs="1" minoccurs="1"/>
+                    <Familienname maxOccurs="1" minOccurs="1">FamilienTestName</Familienname>
+                    <Vorname minOccurs="0"/>
+                    <IstBlockname minOccurs="1">true</IstBlockname>
+                </FruehererName>
+                <Geschlecht minOccurs="1">M</Geschlecht>
+                <Staatsangehoerigkeit>
+                    <ersteAngehoerigkeit minOccurs="1">AA</ersteAngehoerigkeit>
+                    <zweiteAngehoerigkeit minOccurs="0"/>
+                    <dritteAngehoerigkeit minOccurs="0"/>
+                    <vierteAngehoerigkeit minOccurs="0"/>
+                </Staatsangehoerigkeit>
+                <Ausweisdokument>
+                    <Gueltigkeit minOccurs="0">
+                        <Beginn minOccurs="1">2001-12-17T09:30:47Z</Beginn>
+                        <Ende minOccurs="1">2001-12-17T09:30:47Z</Ende>
+                        <Zusatz minOccurs="0"/>
+                    </Gueltigkeit>
+                    <Ausweisart minOccurs="1">ausweis</Ausweisart>
+                    <AusweisId minOccurs="1">ausweisid</AusweisId>
+                    <AusstellendesLand minOccurs="1">DE</AusstellendesLand>
+                    <Bezeichnung minOccurs="0">ausweis</Bezeichnung>
+                    <Aussteller minOccurs="0">Frankfurt</Aussteller>
+                </Ausweisdokument>
+                <Geburt>
+                    <Geburtsort>
+                        <Ort minOccurs="1">a</Ort>
+                        <Postleitzahl minOccurs="0">a</Postleitzahl>
+                        <Land minOccurs="1">DE</Land>
+                        <Bezirk minOccurs="0">a</Bezirk>
+                    </Geburtsort>
+                    <Datum minOccurs="1">1900-00-00</Datum>
+                </Geburt>
+                <AktuelleAnschrift>
+                    <EinzugsDatum minOccurs="1">2001-12-17T09:30:47Z</EinzugsDatum>
+                    <Adresse>
+                        <Strasse minOccurs="0">a</Strasse>
+                        <Ort minOccurs="0">a</Ort>
+                        <Postleitzahl minOccurs="0">a</Postleitzahl>
+                        <AlternativAdressText minOccurs="0">a</AlternativAdressText>
+                        <Bezirk minOccurs="0">a</Bezirk>
+                        <Land minOccurs="1">AA</Land>
+                        <Zusatz minOccurs="0">a</Zusatz>
+                    </Adresse>
+                    <Meldebescheinigung minOccurs="1">true</Meldebescheinigung>
+                </AktuelleAnschrift>
+                <Zweitwohnsitz>
+                    <EinzugsDatum minOccurs="1">2001-12-17T09:30:47Z</EinzugsDatum>
+                    <Adresse>
+                        <Strasse minOccurs="0">a</Strasse>
+                        <Ort minOccurs="0">a</Ort>
+                        <Postleitzahl minOccurs="0">a</Postleitzahl>
+                        <AlternativAdressText minOccurs="0">a</AlternativAdressText>
+                        <Bezirk minOccurs="0">a</Bezirk>
+                        <Land minOccurs="1">AA</Land>
+                        <Zusatz minOccurs="0">a</Zusatz>
+                    </Adresse>
+                    <Meldebescheinigung minOccurs="1">true</Meldebescheinigung>
+                </Zweitwohnsitz>
+                <FruehereAnschrift>
+                    <EinzugsDatum minOccurs="1">2001-12-17T09:30:47Z</EinzugsDatum>
+                    <Adresse>
+                        <Strasse minOccurs="0">a</Strasse>
+                        <Ort minOccurs="0">a</Ort>
+                        <Postleitzahl minOccurs="0">a</Postleitzahl>
+                        <AlternativAdressText minOccurs="0">a</AlternativAdressText>
+                        <Bezirk minOccurs="0">a</Bezirk>
+                        <Land minOccurs="1">AA</Land>
+                        <Zusatz minOccurs="0">a</Zusatz>
+                    </Adresse>
+                    <Meldebescheinigung minOccurs="1">true</Meldebescheinigung>
+                    <Zweitwohnsitz minOccurs="1">true</Zweitwohnsitz>
+                </FruehereAnschrift>
+                <EmailAdresse minOccurs="0">@.</EmailAdresse>
+                <AktuelleTaetigkeit>
+                    <Arbeitslos>
+                        <Beginn minOccurs="1">2001-12-17T09:30:47Z</Beginn>
+                    </Arbeitslos>
+                </AktuelleTaetigkeit>
+            </Antragsteller>
+        </PersonenbezogeneAngaben>
+        <Eingangsfrist minOccurs="1">2001-12-17T09:30:47Z</Eingangsfrist>
+        <Fachbehoerde minOccurs="1">
+            <FachbehoerdenName>
+                <NameLangform minOccurs="0">a</NameLangform>
+                <NameKurzform minOccurs="0">a</NameKurzform>
+                <Organisationseinheit minOccurs="0">a</Organisationseinheit>
+            </FachbehoerdenName>
+            <FachbehoerdenAnschrift>
+                <Bezirk minOccurs="0">a</Bezirk>
+                <PostfachStrasse minOccurs="0">a</PostfachStrasse>
+                <Postleitzahl minOccurs="0">a</Postleitzahl>
+                <Ort minOccurs="0">a</Ort>
+            </FachbehoerdenAnschrift>
+            <Telefonnummer minOccurs="0">a</Telefonnummer>
+            <Faxnummer minOccurs="0">a</Faxnummer>
+            <Ansprechpartner>
+                <Beschreibung minOccurs="0">a</Beschreibung>
+                <Anrede minOccurs="0">a</Anrede>
+                <Nachname minOccurs="0">a</Nachname>
+                <Vorname minOccurs="0">a</Vorname>
+                <Email minOccurs="0">@.</Email>
+                <Telefonnummer minOccurs="0">a</Telefonnummer>
+                <Mobilnummer minOccurs="0">a</Mobilnummer>
+                <Faxnummer minOccurs="0">a</Faxnummer>
+            </Ansprechpartner>
+        </Fachbehoerde>
+        <BetriebsOrte>
+            <AnlassOrt minOccurs="1">a</AnlassOrt>
+        </BetriebsOrte>
+        <Erkenntnisstellen>
+            <ErkenntnisstelleUUID minOccurs="1">00000000-0000-0000-0000-000000000000</ErkenntnisstelleUUID>
+        </Erkenntnisstellen>
     </AnlassbezogenerUeberpruefungsAntrag>
 </AntragsListe>
