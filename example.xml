@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AntragsListe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SendMaxAntrag.xsd">
+    <AnlassbezogenerUeberpruefungsAntrag modus="Erstantrag">
+        <Antragskopf maxoccurs="1" minoccurs="1">
+            <AkteUUID maxoccurs="1" minoccurs="0">0</AkteUUID>
+            <SenderAntragUUID maxoccurs="1" minoccurs="1">00000000-0000-0000-0000-000000000011</SenderAntragUUID>
+            <AntragserfassungsstellenAktenzeichen maxoccurs="1" minoccurs="1">ab</AntragserfassungsstellenAktenzeichen>
+            <BehoerdenAktenzeichen maxoccurs="1" minoccurs="1">ab</BehoerdenAktenzeichen>
+            <Folgeantragsnummer maxoccurs="1" minoccurs="1"/>
+            <AntragsstellungZeitpunktUTC maxoccurs="1" minoccurs="1"/>
+            <AenderungZeitpunktUTC maxoccurs="1" minoccurs="1"/>
+            <Grund maxoccurs="1" minoccurs="1"/>
+            <ReferenzAntragZuAntrag maxoccurs="1" minoccurs="1"/>
+            <OSIPAZ maxoccurs="1" minoccurs="1"/>
+        </Antragskopf>
+        <PersonenbezogeneAngaben maxoccurs="0" minoccurs="1"/>
+    </AnlassbezogenerUeberpruefungsAntrag>
+</AntragsListe>
